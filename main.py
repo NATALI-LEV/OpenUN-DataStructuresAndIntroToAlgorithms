@@ -24,6 +24,5 @@ def main():
     extracted_elements = [str(d_heap.extract_max()) for _ in range(len(heap_integers))]
     print(" -> ".join(extracted_elements))
 
-
 if __name__ == "__main__":
     main()
